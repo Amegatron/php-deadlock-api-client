@@ -1,8 +1,5 @@
-.gitignore
 .php-cs-fixer.dist.php
 .travis.yml
-README.md
-composer.json
 docs/Api/DefaultApi.md
 docs/Model/ActiveMatch.md
 docs/Model/ActiveMatchObjectives.md
@@ -18,7 +15,6 @@ docs/Model/BuildPreference.md
 docs/Model/HTTPValidationError.md
 docs/Model/ValidationError.md
 docs/Model/ValidationErrorLocInner.md
-git_push.sh
 phpunit.xml.dist
 src/Api/DefaultApi.php
 src/ApiException.php
