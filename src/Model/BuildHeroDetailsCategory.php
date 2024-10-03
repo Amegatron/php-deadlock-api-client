@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace DeadlockAPI\Data\Model;
+namespace DeadlockApi\Model;
 
 use \ArrayAccess;
-use \DeadlockAPI\Data\ObjectSerializer;
+use \DeadlockApi\ObjectSerializer;
 
 /**
  * BuildHeroDetailsCategory Class Doc Comment
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -57,7 +57,7 @@ class BuildHeroDetailsCategory implements ModelInterface, ArrayAccess, \JsonSeri
       * @var string[]
       */
     protected static $openAPITypes = [
-        'mods' => '\DeadlockAPI\Data\Model\BuildHeroDetailsCategoryAbility[]',
+        'mods' => '\DeadlockApi\Model\BuildHeroDetailsCategoryAbility[]',
         'name' => 'string',
         'description' => 'string',
         'width' => 'float',
@@ -335,7 +335,7 @@ class BuildHeroDetailsCategory implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets mods
      *
-     * @return \DeadlockAPI\Data\Model\BuildHeroDetailsCategoryAbility[]
+     * @return \DeadlockApi\Model\BuildHeroDetailsCategoryAbility[]
      */
     public function getMods()
     {
@@ -345,7 +345,7 @@ class BuildHeroDetailsCategory implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets mods
      *
-     * @param \DeadlockAPI\Data\Model\BuildHeroDetailsCategoryAbility[] $mods mods
+     * @param \DeadlockApi\Model\BuildHeroDetailsCategoryAbility[] $mods mods
      *
      * @return self
      */

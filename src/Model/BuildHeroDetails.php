@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace DeadlockAPI\Data\Model;
+namespace DeadlockApi\Model;
 
 use \ArrayAccess;
-use \DeadlockAPI\Data\ObjectSerializer;
+use \DeadlockApi\ObjectSerializer;
 
 /**
  * BuildHeroDetails Class Doc Comment
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -57,8 +57,8 @@ class BuildHeroDetails implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'mod_categories' => '\DeadlockAPI\Data\Model\BuildHeroDetailsCategory[]',
-        'ability_order' => '\DeadlockAPI\Data\Model\BuildHeroDetailsAbilityOrder'
+        'mod_categories' => '\DeadlockApi\Model\BuildHeroDetailsCategory[]',
+        'ability_order' => '\DeadlockApi\Model\BuildHeroDetailsAbilityOrder'
     ];
 
     /**
@@ -302,7 +302,7 @@ class BuildHeroDetails implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets mod_categories
      *
-     * @return \DeadlockAPI\Data\Model\BuildHeroDetailsCategory[]
+     * @return \DeadlockApi\Model\BuildHeroDetailsCategory[]
      */
     public function getModCategories()
     {
@@ -312,7 +312,7 @@ class BuildHeroDetails implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets mod_categories
      *
-     * @param \DeadlockAPI\Data\Model\BuildHeroDetailsCategory[] $mod_categories mod_categories
+     * @param \DeadlockApi\Model\BuildHeroDetailsCategory[] $mod_categories mod_categories
      *
      * @return self
      */
@@ -329,7 +329,7 @@ class BuildHeroDetails implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets ability_order
      *
-     * @return \DeadlockAPI\Data\Model\BuildHeroDetailsAbilityOrder|null
+     * @return \DeadlockApi\Model\BuildHeroDetailsAbilityOrder|null
      */
     public function getAbilityOrder()
     {
@@ -339,7 +339,7 @@ class BuildHeroDetails implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets ability_order
      *
-     * @param \DeadlockAPI\Data\Model\BuildHeroDetailsAbilityOrder|null $ability_order ability_order
+     * @param \DeadlockApi\Model\BuildHeroDetailsAbilityOrder|null $ability_order ability_order
      *
      * @return self
      */

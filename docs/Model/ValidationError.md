@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**loc** | [**\DeadlockAPI\Data\Model\ValidationErrorLocInner[]**](ValidationErrorLocInner.md) |  |
+**loc** | [**\DeadlockApi\Model\ValidationErrorLocInner[]**](ValidationErrorLocInner.md) |  |
 **msg** | **string** |  |
 **type** | **string** |  |
 

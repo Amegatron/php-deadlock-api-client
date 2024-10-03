@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace DeadlockAPI\Data\Model;
+namespace DeadlockApi\Model;
 
 use \ArrayAccess;
-use \DeadlockAPI\Data\ObjectSerializer;
+use \DeadlockApi\ObjectSerializer;
 
 /**
  * BuildHero Class Doc Comment
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -66,7 +66,7 @@ class BuildHero implements ModelInterface, ArrayAccess, \JsonSerializable
         'language' => 'int',
         'version' => 'int',
         'origin_build_id' => 'int',
-        'details' => '\DeadlockAPI\Data\Model\BuildHeroDetails'
+        'details' => '\DeadlockApi\Model\BuildHeroDetails'
     ];
 
     /**
@@ -628,7 +628,7 @@ class BuildHero implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets details
      *
-     * @return \DeadlockAPI\Data\Model\BuildHeroDetails
+     * @return \DeadlockApi\Model\BuildHeroDetails
      */
     public function getDetails()
     {
@@ -638,7 +638,7 @@ class BuildHero implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets details
      *
-     * @param \DeadlockAPI\Data\Model\BuildHeroDetails $details details
+     * @param \DeadlockApi\Model\BuildHeroDetails $details details
      *
      * @return self
      */

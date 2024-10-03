@@ -13,6 +13,6 @@ Name | Type | Description | Notes
 **language** | **int** |  |
 **version** | **int** |  |
 **origin_build_id** | **int** |  |
-**details** | [**\DeadlockAPI\Data\Model\BuildHeroDetails**](BuildHeroDetails.md) |  |
+**details** | [**\DeadlockApi\Model\BuildHeroDetails**](BuildHeroDetails.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mods** | [**\DeadlockAPI\Data\Model\BuildHeroDetailsCategoryAbility[]**](BuildHeroDetailsCategoryAbility.md) |  |
+**mods** | [**\DeadlockApi\Model\BuildHeroDetailsCategoryAbility[]**](BuildHeroDetailsCategoryAbility.md) |  |
 **name** | **string** |  |
 **description** | **string** |  |
 **width** | **float** |  |

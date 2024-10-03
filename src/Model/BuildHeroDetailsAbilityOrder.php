@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace DeadlockAPI\Data\Model;
+namespace DeadlockApi\Model;
 
 use \ArrayAccess;
-use \DeadlockAPI\Data\ObjectSerializer;
+use \DeadlockApi\ObjectSerializer;
 
 /**
  * BuildHeroDetailsAbilityOrder Class Doc Comment
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -57,7 +57,7 @@ class BuildHeroDetailsAbilityOrder implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'currency_changes' => '\DeadlockAPI\Data\Model\BuildHeroDetailsAbilityOrderCurrencyChange[]'
+        'currency_changes' => '\DeadlockApi\Model\BuildHeroDetailsAbilityOrderCurrencyChange[]'
     ];
 
     /**
@@ -295,7 +295,7 @@ class BuildHeroDetailsAbilityOrder implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets currency_changes
      *
-     * @return \DeadlockAPI\Data\Model\BuildHeroDetailsAbilityOrderCurrencyChange[]
+     * @return \DeadlockApi\Model\BuildHeroDetailsAbilityOrderCurrencyChange[]
      */
     public function getCurrencyChanges()
     {
@@ -305,7 +305,7 @@ class BuildHeroDetailsAbilityOrder implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets currency_changes
      *
-     * @param \DeadlockAPI\Data\Model\BuildHeroDetailsAbilityOrderCurrencyChange[] $currency_changes currency_changes
+     * @param \DeadlockApi\Model\BuildHeroDetailsAbilityOrderCurrencyChange[] $currency_changes currency_changes
      *
      * @return self
      */

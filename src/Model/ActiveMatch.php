@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace DeadlockAPI\Data\Model;
+namespace DeadlockApi\Model;
 
 use \ArrayAccess;
-use \DeadlockAPI\Data\ObjectSerializer;
+use \DeadlockApi\ObjectSerializer;
 
 /**
  * ActiveMatch Class Doc Comment
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -60,7 +60,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
         'start_time' => 'int',
         'winning_team' => 'int',
         'match_id' => 'int',
-        'players' => '\DeadlockAPI\Data\Model\ActiveMatchPlayer[]',
+        'players' => '\DeadlockApi\Model\ActiveMatchPlayer[]',
         'lobby_id' => 'int',
         'net_worth_team_0' => 'int',
         'net_worth_team_1' => 'int',
@@ -73,8 +73,8 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
         'game_mode' => 'int',
         'match_score' => 'int',
         'region_mode' => 'int',
-        'objectives_team0' => '\DeadlockAPI\Data\Model\ActiveMatchObjectives',
-        'objectives_team1' => '\DeadlockAPI\Data\Model\ActiveMatchObjectives'
+        'objectives_team0' => '\DeadlockApi\Model\ActiveMatchObjectives',
+        'objectives_team1' => '\DeadlockApi\Model\ActiveMatchObjectives'
     ];
 
     /**
@@ -546,7 +546,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets players
      *
-     * @return \DeadlockAPI\Data\Model\ActiveMatchPlayer[]
+     * @return \DeadlockApi\Model\ActiveMatchPlayer[]
      */
     public function getPlayers()
     {
@@ -556,7 +556,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets players
      *
-     * @param \DeadlockAPI\Data\Model\ActiveMatchPlayer[] $players players
+     * @param \DeadlockApi\Model\ActiveMatchPlayer[] $players players
      *
      * @return self
      */
@@ -897,7 +897,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets objectives_team0
      *
-     * @return \DeadlockAPI\Data\Model\ActiveMatchObjectives
+     * @return \DeadlockApi\Model\ActiveMatchObjectives
      */
     public function getObjectivesTeam0()
     {
@@ -907,7 +907,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets objectives_team0
      *
-     * @param \DeadlockAPI\Data\Model\ActiveMatchObjectives $objectives_team0 objectives_team0
+     * @param \DeadlockApi\Model\ActiveMatchObjectives $objectives_team0 objectives_team0
      *
      * @return self
      */
@@ -931,7 +931,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets objectives_team1
      *
-     * @return \DeadlockAPI\Data\Model\ActiveMatchObjectives
+     * @return \DeadlockApi\Model\ActiveMatchObjectives
      */
     public function getObjectivesTeam1()
     {
@@ -941,7 +941,7 @@ class ActiveMatch implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets objectives_team1
      *
-     * @param \DeadlockAPI\Data\Model\ActiveMatchObjectives $objectives_team1 objectives_team1
+     * @param \DeadlockApi\Model\ActiveMatchObjectives $objectives_team1 objectives_team1
      *
      * @return self
      */

@@ -57,11 +57,14 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
+$configuration = new \DeadlockApi\Configuration();
+$configuration->setHost('data.deadlock-api.com'); // Depends on what exact API you're querying
 
-$apiInstance = new DeadlockAPI\Data\Api\DefaultApi(
+$apiInstance = new \DeadlockApi\Api\DefaultApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $configuration,
 );
 $parse_objectives = false; // bool
 

@@ -31,9 +31,9 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "DeadlockAPI\\Data\\" : "src/" }
+        "psr-4": { "DeadlockApi\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "DeadlockAPI\\Data\\Test\\" : "test/" }
+        "psr-4": { "DeadlockApi\\Test\\" : "test/" }
     }
 }

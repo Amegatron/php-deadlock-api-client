@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace DeadlockAPI\Data\Model;
+namespace DeadlockApi\Model;
 
 use \ArrayAccess;
-use \DeadlockAPI\Data\ObjectSerializer;
+use \DeadlockApi\ObjectSerializer;
 
 /**
  * Build Class Doc Comment
  *
  * @category Class
- * @package  DeadlockAPI\Data
+ * @package  DeadlockApi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -57,11 +57,11 @@ class Build implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'hero_build' => '\DeadlockAPI\Data\Model\BuildHero',
+        'hero_build' => '\DeadlockApi\Model\BuildHero',
         'num_favorites' => 'int',
         'num_ignores' => 'int',
         'num_reports' => 'int',
-        'preference' => '\DeadlockAPI\Data\Model\BuildPreference'
+        'preference' => '\DeadlockApi\Model\BuildPreference'
     ];
 
     /**
@@ -332,7 +332,7 @@ class Build implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets hero_build
      *
-     * @return \DeadlockAPI\Data\Model\BuildHero
+     * @return \DeadlockApi\Model\BuildHero
      */
     public function getHeroBuild()
     {
@@ -342,7 +342,7 @@ class Build implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets hero_build
      *
-     * @param \DeadlockAPI\Data\Model\BuildHero $hero_build hero_build
+     * @param \DeadlockApi\Model\BuildHero $hero_build hero_build
      *
      * @return self
      */
@@ -440,7 +440,7 @@ class Build implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets preference
      *
-     * @return \DeadlockAPI\Data\Model\BuildPreference|null
+     * @return \DeadlockApi\Model\BuildPreference|null
      */
     public function getPreference()
     {
@@ -450,7 +450,7 @@ class Build implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets preference
      *
-     * @param \DeadlockAPI\Data\Model\BuildPreference|null $preference preference
+     * @param \DeadlockApi\Model\BuildPreference|null $preference preference
      *
      * @return self
      */

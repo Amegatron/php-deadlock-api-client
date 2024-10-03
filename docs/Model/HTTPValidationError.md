@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**detail** | [**\DeadlockAPI\Data\Model\ValidationError[]**](ValidationError.md) |  | [optional]
+**detail** | [**\DeadlockApi\Model\ValidationError[]**](ValidationError.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
